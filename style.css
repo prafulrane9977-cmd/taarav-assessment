@@ -49,11 +49,11 @@ header::before{
 }
 
 .logo{
-    width:100%;
-    max-width:520px;
-    height:auto;
     display:block;
-    margin:0 auto 12px auto;
+    width:100%;
+    max-width:320px;
+    height:auto;
+    margin:0 auto 10px auto;
     object-fit:contain;
 }
 
@@ -508,10 +508,12 @@ td{
 /* MOBILE */
 
 @media(max-width:900px){
-
-    .page{
-        padding:10px;
+    .logo{
+        max-width:280px;
+        width:90%;
+        height:auto;
     }
+}
 
     header{
         padding:14px 8px;
