@@ -1305,3 +1305,40 @@ header h2{
         white-space:nowrap !important;
     }
 }
+/* ===== LOGO CUT FIX ===== */
+
+header{
+    overflow:visible !important;
+}
+
+.logo{
+    width:100% !important;
+    max-width:520px !important;
+    height:auto !important;
+    max-height:none !important;
+    display:block !important;
+    margin:0 auto 10px auto !important;
+    object-fit:contain !important;
+}
+
+@media(max-width:768px){
+
+    header{
+        padding:12px 8px !important;
+    }
+
+    .logo{
+        width:95vw !important;
+        max-width:95vw !important;
+        height:auto !important;
+        max-height:none !important;
+    }
+
+    header h1{
+        font-size:20px !important;
+    }
+
+    header h2{
+        font-size:13px !important;
+    }
+}
